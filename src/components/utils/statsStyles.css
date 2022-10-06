@@ -1,0 +1,21 @@
+.Background{
+  background: gray;
+  padding: 8%;
+}
+.Base{
+  margin: auto;
+  alignment: center;
+  text-align: center;
+  background: #71F79F;
+  width: 50%;
+  padding-block: 30px;
+  border-radius: 26px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  color: white;
+}

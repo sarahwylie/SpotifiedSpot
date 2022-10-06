@@ -1,0 +1,140 @@
+.dropdown {
+  width: 2em;
+  height: 50px;
+  border: 1px solid black;
+  background: lightgray;
+  border-radius: 3px;
+  color: black;
+  font-size: 1em;
+}
+
+.modalBackdrop {
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  color: #fafafa;
+}
+
+.modalContainer {
+  background: #111111;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 960px;
+}
+
+.modalTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.background {
+  height: 100%;
+  background-color: rgba(55, 63, 81, 0.9);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  margin: 1%;
+}
+
+.cardholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.songcard {
+  color: rgba(214, 214, 215, 0.95);
+  background-color: rgba(21, 176, 151, 0.75);
+  margin: 2%;
+  padding: 1%;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  box-shadow: 0.5em 0.5em 0.75em 0.75em rgba(55, 63, 81, 0.9);
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.single {
+  height: 30%;
+  width: 18%;
+}
+
+img {
+  display: flex;
+  width: fit-content;
+  block-size: fit-content;
+  margin: 3%;
+  justify-content: center;
+}
+img:hover {
+  box-shadow: 0.5em 0.5em 0.75em 0.75em rgba(55, 63, 81, 0.9);
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
+.guess {
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 2%;
+  width: 100%;
+}
+
+.guess2 {
+  font-size: large;
+  font-weight: bold;
+  margin: 2%;
+  width: 100%;
+}
+
+.stat {
+  margin: 2%;
+  padding: 2%;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+  align-items: center;
+}
+
+.totals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.statbtn {
+  margin: 5%;
+}
+
+.boo {
+  color: #ff141b;
+  margin: 2%;
+}
+
+.yay {
+  color: #71f79f;
+  margin: 1%;
+}
+
+.score {
+  font-size: larger;
+  font-weight: bold;
+}

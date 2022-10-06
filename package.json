@@ -1,11 +1,14 @@
 {
   "name": "SpotifiedSpot",
   "version": "2.0.0",
+  "homepage": "http://sarahwylie.github.io/SpotifiedSpot",
   "description": "React project using Spotify's API",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Sarah Wylie",
   "license": "ISC",
@@ -17,6 +20,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",

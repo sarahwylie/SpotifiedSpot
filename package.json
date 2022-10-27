@@ -1,14 +1,21 @@
 {
-  "name": "SpotifiedSpot",
+  "name": "spotified-spot",
   "version": "2.0.0",
-  "homepage": "http://sarahwylie.github.io/SpotifiedSpot",
+  "homepage": "http://sarahwylie.github.io/spotified-spot",
   "description": "React project using Spotify's API",
-  "main": "dist/index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "author": "Sarah Wylie",
   "license": "ISC",
@@ -48,5 +55,17 @@
     "regenerator-runtime": "^0.13.9",
     "styled-components": "^5.3.5",
     "whatwg-fetch": "^3.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

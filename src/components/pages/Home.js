@@ -112,7 +112,7 @@ const Home = () => {
       token: t,
       endpoint: "recommendations/available-genre-seeds"
     });
-    const cleanedResponse = response.genres.filter((genre) => !bannedGenres.includes(genre))
+    const cleanedResponse = response.genres.filter((genre) => genre == bannedGenres ? false : true)
     setGenres(cleanedResponse);
     dispatch(appActions.toggleLoading());
   };

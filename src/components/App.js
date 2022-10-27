@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import { useSelector } from "react-redux";
 
-import Home from "./pages/Home";
-import Quiz from "./pages/Quiz";
-import Stats from "./pages/Stats";
+import Home from "../components/pages/Home";
+import Quiz from "../components/pages/Quiz";
+import Stats from "../components/pages/Stats";
 
 
 //Developer Note:

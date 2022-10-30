@@ -5,7 +5,8 @@
   "description": "React project using Spotify's API",
   "main": "dist/index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start": "react-scripts start",
+    "prebuild": "rimraf dist",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -46,8 +47,10 @@
     "react-slider": "^2.0.4",
     "redux": "^4.2.0",
     "regenerator-runtime": "^0.13.9",
+    "rimraf": "^3.0.2",
     "styled-components": "^5.3.5",
-    "whatwg-fetch": "^3.0.0"
+    "whatwg-fetch": "^3.0.0",
+    "workbox-webpack-plugin": "^6.5.4"
   },
   "browserslist": {
     "production": [

@@ -242,3 +242,5 @@ const Home = () => {
 };
 
 export default Home;
+
+// 'regenerator-runtime/runtime.js', 

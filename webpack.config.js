@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-  entry: ['regenerator-runtime/runtime.js', './src/index.js'],
+  entry: ['./src/index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
@@ -26,7 +26,13 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader']
-      }
+      },
+      {
+        test: /\.ttf$/,
+        use: [
+          'url-loader',
+        ],
+        },
     ]
   },
   devServer: {

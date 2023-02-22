@@ -1,7 +1,7 @@
 {
   "name": "spotified-spot",
   "version": "2.0.0",
-  "homepage": "https://sarahwylie.github.io/spotified-spot",
+  "homepage": "https://sarahwylie.github.io/SpotifiedSpot",
   "description": "React project using Spotify's API",
   "main": "dist/index.js",
   "scripts": {

@@ -16,10 +16,10 @@ Think you are a music connoisseur? Given a genre of your choice, could you ident
 Test your knowledge or battle friends to see who is the ultimate music nerd!
 
 ## Installation
-Go to [our site](http://sarahwylie.github.io/SpotifiedSpot) and try your hand at our quiz!
+Go to [our site](http://https://spotified-spot-r39h.vercel.app/) and try your hand at our quiz!
 
 ## Teaser:
-![Landing Page](./src/assets/Spot.png)
+![Landing Page](https://user-images.githubusercontent.com/90208612/227341518-b10c3a2f-ef14-4479-a863-3954d92a238e.png)
 
 ### Badges
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -31,7 +31,8 @@ Go to [our site](http://sarahwylie.github.io/SpotifiedSpot) and try your hand at
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.![Spot](https://user-images.githubusercontent.com/90208612/227341437-db537c35-efdf-4208-bc39-fab5128632d3.png)
+svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 

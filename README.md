@@ -16,7 +16,7 @@ Think you are a music connoisseur? Given a genre of your choice, could you ident
 Test your knowledge or battle friends to see who is the ultimate music nerd!
 
 ## Installation
-Go to [our site](http://https://spotified-spot-r39h.vercel.app/) and try your hand at our quiz!
+Go to [our site](http://spotified-spot-r39h.vercel.app/) and try your hand at our quiz!
 
 ## Teaser:
 ![Landing Page](https://user-images.githubusercontent.com/90208612/227341518-b10c3a2f-ef14-4479-a863-3954d92a238e.png)
